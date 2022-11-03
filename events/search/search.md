@@ -21,6 +21,7 @@ dataLayer.push({
 
 |Field|Type|Required|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|search_term_corrected|string|recommended|The initial search term before typeahead/lookahead/suggestion, if the site has those features.|Atla|
-|search_term|string|required|The final search term submitted after any correction has been performed|Atlanta|
+|search_term_corrected|string|recommended|The initial search term before typeahead/lookahead/suggestion, if the site has those features. For recruitment site, this would be a sorted string of all positions searched for. |Atla|
+|search_term|string|required|The final search term submitted after any correction has been performed. For recruitment site, this would be a sorted string of all positions searched for. |Atlanta|
 |search_type|string|required|The type of search performed|franchise,job,global|
+|location|string|required|For recruitment site, the zipcode service area the user searched for|
