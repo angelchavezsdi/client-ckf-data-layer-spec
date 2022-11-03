@@ -24,5 +24,6 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |facets|delimited string|recommended|A delimited string of key/value pairs representing the facets that were applied to this search|filter:value\~filter2:value2\~filter3:value3|
 |number_of_items|integer|recommended|The total number of search results found|324|
-|search_term|string|required|The final search term submitted after any correction has been performed|Atlanta|
+|search_term|string|required|The final search term submitted after any correction has been performed. For recruitment site, this would be a sorted string of all positions searched for.|Atlanta|
 |search_type|string|required|The type of search performed|franchise,job,global|
+|location|string|required|For recruitment site, the zipcode service area the user searched for|
